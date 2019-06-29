@@ -1,0 +1,39 @@
+header{width:100%;
+}
+.main{
+    width:1370px;height:146px;
+    margin-left:335px;
+}
+.main_left{
+    width: 980px;height: 146px;
+    line-height:146px;
+}
+.main_left img{width:210px;height:96px;}
+.main_left_input{
+    /* width: 445px; */
+    width: 565px;
+    height: 60px;
+    margin-left:50px;
+    display: inline-block;
+}
+.main_left_input input{
+    box-sizing: border-box;/*盒子模型*/
+    width: 445px;height:58px;
+    padding-left:15px;
+    border: 2px solid #f03726;
+    outline: none;/*清轮廓*/
+}
+.main_left_input a{
+    box-sizing: border-box;
+    display:inline-block;/*设置行内块元素*/
+    background-color: #f03726;
+    width:115px;height: 58px;
+    line-height:53px;
+    color:#fff;
+    font-size: 22px;
+    text-align: center;
+    margin-left:-5px;
+}
+.main_left_input a:hover{
+    text-decoration:none;/*hover状态下：清除a标签下划线*/
+}
